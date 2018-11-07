@@ -1,0 +1,1 @@
+python train.py --dataroot ./datasets/thermal_gan --name thermal_gan_rel --model thermal_gan_rel --which_model_netG unet_512 --which_direction AtoB --input_nc 4 --output_nc 1 --lambda_A 100 --dataset_mode thermal_rel --no_lsgan --norm batch --pool_size 0
