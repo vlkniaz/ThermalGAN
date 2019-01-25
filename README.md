@@ -65,3 +65,21 @@ python train.py --dataroot ./datasets/thermal_gan --name thermal_gan_rel --model
 python test.py --dataroot ./datasets/thermal_gan --name thermal_gan_rel --model thermal_gan_rel --which_model_netG unet_512 --which_direction AtoB --input_nc 4 --output_nc 1 --loadSize 512 --fineSize 512 --dataset_mode thermal_rel --how_many 352 --gpu_ids -1 --norm batch
 ```
 The test results will be saved to a html file here: `./results/thermal_gan_rel/latest_test/index.html`.
+
+### Apply a pre-trained model (ThermalGAN)
+
+Download a pre-trained model with `./pretrained_models/download_thermalgan_dataset.sh`.
+
+- For example, if you would like to download ThermalGAN model on the ThermalWorld dataset,
+```bash
+bash pretrained_models/download_thermalgan_model.sh ThermalGAN
+```
+
+- Download the ThermalWorld dataset
+```bash
+bash ./datasets/download_thermalworld_dataset.sh ThermalWorld
+```
+- Then generate the results using
+```bash
+bash scripts/test_thermalgan_rel_pretrained.sh
+```
