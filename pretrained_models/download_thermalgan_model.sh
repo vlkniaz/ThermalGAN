@@ -1,6 +1,6 @@
 FILE=$1
 
-echo "Note: available model is ThrmalGAN"
+echo "Note: available model is ThermalGAN"
 
 echo "Specified [$FILE]"
 
