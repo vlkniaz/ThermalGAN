@@ -1,1 +1,1 @@
-python test.py --dataroot ./datasets/ThermalGAN --name ThermalGAN_pretrained --model thermal_gan_rel --which_model_netG unet_512 --which_direction AtoB --input_nc 4 --output_nc 1 --loadSize 512 --fineSize 512 --dataset_mode thermal_rel --how_many 352 --gpu_ids -1 --norm batch 
+python test.py --dataroot ./datasets/ThermalWorld --name ThermalGAN_pretrained --model thermal_gan_rel --which_model_netG unet_512 --which_direction AtoB --input_nc 4 --output_nc 1 --loadSize 512 --fineSize 512 --dataset_mode thermal_rel --how_many 352 --gpu_ids -1 --norm batch 
