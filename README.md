@@ -14,12 +14,12 @@ If you use this code for your research, please cite:
 
 ```
 @InProceedings{Kniaz2018,
-author="Kniaz, Vladimir V. and
+author={Kniaz, Vladimir V. and
 Knyaz, Vladimir A. and
-Hlad\r{u}vka, Ji{\v r}{\'{\i}}  and Kropatsch, Walter G. and Mizginov, Vladimir A.,
-title="ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset",
-booktitle="Computer Vision -- ECCV 2018 Workshops",
-year="2018",
+Hlad\r{u}vka, Ji{\v r}{\'{\i}}  and Kropatsch, Walter G. and Mizginov, Vladimir A.},
+title={{ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset}},
+booktitle={{Computer Vision -- ECCV 2018 Workshops}},
+year={2018},
 publisher="Springer International Publishing",
 }
 ```
