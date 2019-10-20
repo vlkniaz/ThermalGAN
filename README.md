@@ -49,10 +49,8 @@ git clone https://github.com/vlkniaz/ThermalGAN.git
 ```
 
 ### ThermalGAN train/test
-- Download a ThermalGAN dataset:
-```bash
-bash ./datasets/download_thermalgan_dataset.sh thermalgan
-```
+- Download a ThermalGAN dataset bty requesting access at http://zefirus.org/ThermalGAN .
+
 - Train a model:
 ```bash
 #!./scripts/train_thermalgan_rel.sh
@@ -81,5 +79,6 @@ bash ./datasets/download_thermalworld_dataset.sh ThermalWorld
 ```
 - Then generate the results using
 ```bash
+python -m visdom.server
 bash scripts/test_thermalgan_rel_pretrained.sh
 ```
